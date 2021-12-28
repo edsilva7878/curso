@@ -1,0 +1,167 @@
+.project{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/project.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Pristina;
+    font-size: 40pt;
+    color: white;
+}
+.linkProject{
+    text-decoration: none;
+    width: 30vw;
+    height: 15vh;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: solid chocolate;
+    margin-right: 5px;
+}
+.linkProject:hover{
+    background-color: chocolate;
+
+}
+.contProject{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Felix Titling;
+    font-size: 15pt;
+    color: rgb(255, 255, 255);
+
+}
+.cont1Project{
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Felix Titling;
+    font-size: 45pt;
+    color: white;
+}
+.cont2Project{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Felix Titling;
+    font-size: 45pt;
+    color: white;
+}
+.footer{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Pristina;
+    font-size: 25pt;
+    color: white;
+}
+
+
+.card1{
+    width: 15vw;
+    height: 15vh;
+    background-image:url('../images/card1.png');
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 5px;
+}
+.card1:hover{
+    width: 30vw;
+    height: 30vh;
+    transition: all 0.3s;
+
+}
+.card2{
+    width: 15vw;
+    height: 15vh;
+    background-image:url('../images/card2.png');
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 5px;
+}
+.card2:hover{
+    width: 30vw;
+    height: 30vh;
+    transition: all 0.3s;
+}
+.card3{
+    width: 15vw;
+    height: 15vh;
+    background-image:url('../images/card3.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 5px;
+}
+.card3:hover{
+    width: 30vw;
+    height: 30vh;
+    transition: all 0.3s;
+}
+.card4{
+    width: 15vw;
+    height: 15vh;
+    background-image:url('../images/card4.png');
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 5px;
+}
+.card4:hover{
+    width: 30vw;
+    height: 30vh;
+    transition: all 0.3s;
+}
+.card5{
+    width: 15vw;
+    height: 15vh;
+    background-image:url('../images/card5.png');
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 5px;
+}
+.card5:hover{
+    width: 30vw;
+    height: 30vh;
+    transition: all 0.3s;
+}
+

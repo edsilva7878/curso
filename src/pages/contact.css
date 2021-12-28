@@ -1,0 +1,155 @@
+.contact{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/contact.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Pristina;
+    font-size: 40pt;
+    color: white;
+}
+.linkContact{
+    text-decoration: none;
+    width: 30vw;
+    height: 15vh;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: solid chocolate;
+    margin-right: 5px;
+}
+.linkContact:hover{
+    background-color: chocolate;
+
+}
+.contContact{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Felix Titling;
+    font-size: 15pt;
+    color: rgb(255, 255, 255);
+
+}
+.form{
+    width: 40vw;
+    height: 50vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.email{
+    width: 31.2vw;
+    height: 5vh;
+    background-color: rgba(255, 255, 255, 0.849);
+    outline: none;
+    color: chocolate;
+    border: solid transparent;
+    margin: 5px;
+    padding-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15pt;
+
+}
+.namePhone{
+    width: 14.4vw;
+    height: 5vh;
+    background-color: rgba(255, 255, 255, 0.849);
+    outline: none;
+    color: chocolate;
+    border: solid transparent;
+    margin: 5px;
+    padding-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15pt;
+}
+.textArea{
+    width: 31.2vw;
+    height: 15vh;
+    background-color: rgba(255, 255, 255, 0.849);
+    outline: none;
+    color: chocolate;
+    border: solid transparent;
+    margin: 5px;
+    padding-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15pt;
+}
+button{
+    width: 16.15vw;
+    height: 5vh;
+    background-color: rgba(210, 105, 30, 0.664);
+    border: solid transparent;
+    margin: 5px;
+    border-width: 2px;
+    color: rgba(255, 255, 255, 0.705);
+    font-family: Felix Titling;
+    font-size: 12pt;
+}
+button:hover{
+    background-color: rgb(210, 105, 30);
+    border: solid transparent;
+    color: rgb(255, 255, 255);
+}
+::placeholder{
+    color: rgba(210, 105, 30, 0.541);
+    font-family: Felix Titling;
+    font-size: 12pt;
+}
+.areaIcons{
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.midiaIcons{
+    font-size: 20pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+    align-items: center;
+    margin: 5px;
+    
+}
+.contContact2{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Felix Titling;
+    font-size: 45pt;
+    color: white;
+}
+.footer{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Pristina;
+    font-size: 25pt;
+    color: white;
+}

@@ -1,0 +1,128 @@
+.aboutFirst{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/aboutFirst.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Pristina;
+    font-size: 40pt;
+    color: white;
+}
+.linkAbout{
+    text-decoration: none;
+    width: 30vw;
+    height: 15vh;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: solid chocolate;
+    margin-right: 5px;
+}
+.linkAbout:hover{
+    background-color: chocolate;
+
+}
+.cont{
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Felix Titling;
+    font-size: 15pt;
+    color: rgb(255, 255, 255);
+
+}
+.description{
+    font-size: 20pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 50px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+
+}
+.cont2{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Felix Titling;
+    font-size: 45pt;
+    color: white;
+}
+.cardA{
+    width: 40vw;
+    height: 40vh;
+    background-image: url('../images/iniciacao.png');
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px black;
+}
+.cardB{
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15pt;
+}
+.setaEsq{
+    text-decoration: none;
+    width: 10vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 50pt;
+    color: transparent;
+}
+.setaDir{
+    text-decoration: none;
+    width: 10vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 50pt;
+
+}
+.setas{
+    text-decoration: none;
+    color: chocolate;
+    font-size: 90pt;
+}
+.setas:hover{
+    color: rgb(248, 107, 7);
+
+}
+.footer{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Pristina;
+    font-size: 25pt;
+    color: white;
+}

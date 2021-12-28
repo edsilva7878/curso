@@ -1,0 +1,64 @@
+.index{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/home.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Pristina;
+    font-size: 40pt;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    width: 25vw;
+    height: 15vh;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: solid chocolate;
+}
+.link:hover{
+    background-color: chocolate;
+
+}
+.contIndex{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Felix Titling;
+    font-size: 45pt;
+    color: white;
+}
+.footerProject{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Pristina;
+    font-size: 25pt;
+    color: white;
+}
+.iconFooter{
+    font-size: 12pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

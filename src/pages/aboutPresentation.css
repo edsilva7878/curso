@@ -1,0 +1,126 @@
+.about{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/about.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Pristina;
+    font-size: 40pt;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    width: 25vw;
+    height: 15vh;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: solid chocolate;
+}
+.link:hover{
+    background-color: chocolate;
+
+}
+.contAbout{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Felix Titling;
+    font-size: 45pt;
+    color: white;
+}
+.contAbout2{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Felix Titling;
+    font-size: 45pt;
+    color: white;
+}
+.cardAPresentation{
+    width: 40vw;
+    height: 40vh;
+    background-image: url('../images/presentation.png');
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px black;
+
+}
+.cardBPresentation{
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15pt;
+    background-color: rgba(210, 105, 30, 0.507);
+
+}
+.textDescription{
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15pt;
+    text-align: justify;
+    text-shadow: 1px 1px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.setaEsqPresentation{
+    text-decoration: none;
+    width: 10vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 50pt;
+
+}
+.setaDirPresentation{
+    text-decoration: none;
+    width: 10vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 50pt;
+    color: transparent;
+
+
+}
+
+.footer{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Pristina;
+    font-size: 25pt;
+    color: white;
+}
